@@ -17,7 +17,7 @@ class Calculator {
         }
 
         if operation == "%" {
-            return Double(firstNumber) % Double(secondNumber)
+            return Double(firstNumber % secondNumber)
         }
 
         // 정확한 operation이 전달되지 않을 시 0을 리턴(nil을 리턴해도 됨)
